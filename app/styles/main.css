@@ -3,4 +3,19 @@ body{
 }
 #about{
   margin-top:50px;
+  margin-left:10px;
+  margin-right:10px;
+}
+img{
+  margin-right:10px;
+  border-radius:10px;
+}
+.p1{
+  float:left;
+}
+.p2{
+  float:right;
+}
+.p3{
+  float:left;
 }
