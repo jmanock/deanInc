@@ -1,8 +1,24 @@
 body{
 
 }
-#about{
+#heading{
   margin-top:50px;
+}
+.office{
+  height:500px;
+  width:100%;
+  opacity:.7;
+  position:relative;
+}
+#heading h2{
+  position:absolute;
+  top:170px;
+  left:35%;
+  width:100%;
+  font-size:4em;
+  color:gray;
+}
+#about{
   margin-left:10px;
   margin-right:10px;
 }
