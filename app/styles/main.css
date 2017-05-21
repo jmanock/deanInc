@@ -35,3 +35,12 @@ img{
 .p3{
   float:left;
 }
+#service{
+
+}
+#contracts, #dog, #health{
+  border:1px solid black;
+}
+li{
+  list-style-type:none;
+}
