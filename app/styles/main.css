@@ -41,6 +41,11 @@ img{
 .ser{
   width:300px;
   height:250px;
+  opacity:.5;
+  border:3px solid black;
+}
+.ser:hover{
+  opacity:1;
 }
 .contract{
   margin-left:10px;
