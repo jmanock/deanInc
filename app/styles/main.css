@@ -38,10 +38,7 @@ img{
 #service{
 
 }
-.serv{
-  display:inline-block;
-  height:150px;
-  width:75px;
-  margin:10px;
-  border:3px solid black;
+.ser{
+  width:300px;
+  height:250px;
 }
