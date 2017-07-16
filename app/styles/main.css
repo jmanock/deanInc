@@ -19,13 +19,17 @@ body{
   margin-top:50px;
   height:100px;
   background-color:#339999 !important;
-  -webkit-box-shadow:0 13px 6px -6px #888888;
-  -moz-box-shadow:0 13px 6px -6px #888888;
-  box-shadow:0 13px 6px -6px #888888;
+  -webkit-box-shadow:0 13px 6px -5px #888888;
+  -moz-box-shadow:0 13px 6px -5px #888888;
+  box-shadow:0 13px 6px -5px #888888;
 }
 .nav-item{
   color:#f3f3f3 !important;
 }
 .nav-item:hover{
   background-color:#40568f !important;
+}
+#about{
+  margin-top:50px;
+  text-align:center;
 }
