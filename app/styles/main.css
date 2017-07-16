@@ -2,8 +2,26 @@
 body{
   font-family:'Open Sans';
 }
-nav{
+#icons{
+  position:absolute;
+  top:15px;
+  right:100px;
+  font-size:1.3em;
+}
+#icons > a{
+  color:#339999;
+  margin-right:10px;
+}
+#icons > a:hover{
+  color:#40568f;
+}
+.navbar{
+  margin-top:50px;
+  height:100px;
   background-color:#339999 !important;
+  -webkit-box-shadow:0 13px 6px -6px #888888;
+  -moz-box-shadow:0 13px 6px -6px #888888;
+  box-shadow:0 13px 6px -6px #888888;
 }
 .nav-item{
   color:#f3f3f3 !important;
