@@ -2,21 +2,10 @@
   "name": "deaninc",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.3.5",
-    "modernizr": "~2.8.1"
-  },
-  "overrides": {
-    "bootstrap": {
-      "main": [
-        "less/bootstrap.less",
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js",
-        "dist/fonts/*"
-      ]
-    }
+    "bootstrap": "~4.0.0-alpha.6"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
   }
 }
