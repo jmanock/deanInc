@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+  font-family:'Open Sans';
+}
+nav{
+  background-color:#339999 !important;
+}
+.nav-item{
+  color:#f3f3f3 !important;
+}
+.nav-item:hover{
+  background-color:#40568f !important;
+}
