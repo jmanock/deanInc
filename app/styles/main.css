@@ -2,18 +2,39 @@
 body{
   font-family:'Open Sans';
 }
-#icons{
+#left, #right{
+  z-index:-1;
+  top:0;
+  bottom:0;
+  width:55px;
+  height:;
+  background:#eaeaea;
+  position:fixed;
+  box-shadow:6px 0 15px -4px #888888, -6px 0 8px -4px #888888;
+}
+#left{
+  left:0;
+}
+#right{
+  right:0;
+}
+#navBar{
+  border:1px solid white;
+  background-color:white;
+}
+aside{
   position:absolute;
   top:15px;
   right:100px;
   font-size:1.3em;
 }
-#icons > a{
+aside > a{
   color:#339999;
   margin-right:10px;
 }
-#icons > a:hover{
+aside > a:hover{
   color:#40568f;
+  text-decoration:none;
 }
 .navbar{
   margin-top:50px;
@@ -31,15 +52,20 @@ body{
 }
 #about{
   margin-top:50px;
-}
-#about > h3{
-  text-align:center;
-  color:#339999;
-  font-weight:bold;
+  margin-left:75px;
+  margin-right:75px;
 }
 .debbie{
   float:left;
-  margin-right:10px;
-  margin-left:10px;
   border-radius:20px;
+  margin-right:10px;
+}
+#about > h3{
+  color:#40568f;
+  font-weight:bold;
+  text-align:center;
+}
+#about > h5{
+  color:#339999;
+  font-weight:bold;
 }
