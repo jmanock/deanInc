@@ -31,5 +31,15 @@ body{
 }
 #about{
   margin-top:50px;
+}
+#about > h3{
   text-align:center;
+  color:#339999;
+  font-weight:bold;
+}
+.debbie{
+  float:left;
+  margin-right:10px;
+  margin-left:10px;
+  border-radius:20px;
 }
