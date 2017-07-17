@@ -2,6 +2,11 @@
 body{
   font-family:'Open Sans';
 }
+#navBar{
+  border-left:1px solid #888888;
+  border-top:1px solid white;
+  background-color:white;
+}
 #left, #right{
   z-index:-1;
   top:0;
@@ -18,10 +23,7 @@ body{
 #right{
   right:0;
 }
-#navBar{
-  border:1px solid white;
-  background-color:white;
-}
+
 aside{
   position:absolute;
   top:15px;
