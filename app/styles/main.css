@@ -26,7 +26,7 @@ a{
 #right{
   right:0;
 }
-aside{
+#navBar aside{
   position:absolute;
   top:15px;
   right:100px;
@@ -76,6 +76,18 @@ aside > a:hover{
 #coverage{
   margin-left:75px;
   margin-right:75px;
+  border:5px solid black;
+}
+#fHeader{
+  border-bottom:5px solid black;
+  height:100px;
+}
+#fHeader > p{
+  padding-left:10px;
+}
+#fHeader > aside{
+  float:right;
+  padding-right:10px;
 }
 #coverage > h5{
   color:#339999;
