@@ -70,17 +70,105 @@ aside > a:hover{
   color:#339999;
   font-weight:bold;
 }
-footer{
-  background-image:url('../images/footer.jpg');
-  background-size:cover;
-  overflow:hidden;
+
+
+
+footer#site-footer{
   width:100%;
   height:auto;
-  background-position:center;
+  background-image:url(../images/footer.jpg);
+  background-position:center center;
   background-repeat:no-repeat;
+  background-size:cover;
   position:relative;
+  padding-top:20px;
+  margin-top:0;
 }
-footer:after{
+
+footer#site-footer .col-md-4{
+  position:relative;
+  z-index:2;
+  }
+  footer#site-footer h5{
+    font-family:'Open Sans',sans-serif;
+    font-weight:700;
+    font-size:18px;
+    color:#69c;
+  }
+
+footer#site-footer p{
+  color:#fff;
+  font-size:14px;
+  line-height:24px;
+}
+footer#site-footer ul.social{
+  list-style:none;
+  margin:30px 0 35px 0;
+  padding:0;
+  width:auto;
+  display:block;
+  height:50px;
+  width:100%;
+}
+footer#site-footer ul.social li{
+  display:inline-block;
+  float:left;
+  margin-left:5px;
+}
+footer#site-footer ul.social li a{
+  height:50px;
+  line-height:50px;
+  width:40px;
+  display:block;
+  color:#fff;
+  background:#69c;
+  text-align:center;
+  font-size:14px;
+  border-radius:5px;
+}
+footer#site-footer ul.social li a:hover{
+  background:#385076;
+}
+footer#site-footer .menu ul,footer#site-footer ul.menu{
+  margin:0 0 20px 0;
+  padding:0;
+  list-style:none;
+}
+footer#site-footer .menu ul li,footer#site-footer ul.menu li{
+  border-top:1px solid #69c;
+  margin-top:5px;
+  padding-top:5px;
+}
+footer#site-footer .menu ul li a,footer#site-footer ul.menu li a{
+  color:#fff;
+}
+footer#site-footer .menu ul li a:hover,footer#site-footer ul.menu li a:hover{
+  color:#69c;
+  text-decoration:none;
+}
+footer#site-footer .menu ul li:nth-child(1),footer#site-footer ul.menu li:nth-child(1){
+  border-top:none;
+  margin-top:0;
+  padding-top:0;
+}
+footer#site-footer .logo-at{
+  width:100%;
+  float:right;
+  margin-bottom:30px;
+}
+footer#site-footer .logo-at a{
+  float:right;
+}
+footer#site-footer .site-info{
+  width:100%;
+  float:right;
+}
+footer#site-footer .site-info p{
+  font-size:12px;
+  line-height:18px;
+  text-align:right;
+}
+footer#site-footer:after{
   background-position:center center;
   background-repeat:repeat;
   background-color:rgba(64,86,143,0.8);
@@ -89,5 +177,5 @@ footer:after{
   position:absolute;
   top:0;
   z-index:1;
-  content:'';
+  content:"";
 }
