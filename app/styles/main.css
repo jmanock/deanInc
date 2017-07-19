@@ -73,6 +73,14 @@ aside > a:hover{
   color:#339999;
   font-weight:bold;
 }
+#coverage{
+  margin-left:75px;
+  margin-right:75px;
+}
+#coverage > h5{
+  color:#339999;
+  font-weight:bold;
+}
 footer{
   width:100%;
   height:auto;
@@ -111,7 +119,7 @@ address{
 .social li a{
   color:#69c;
 }
-small{
+footer small{
   color:#fff;
   margin-left:25em;
 }
