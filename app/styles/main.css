@@ -89,6 +89,17 @@ aside > a:hover{
   float:right;
   padding-right:10px;
 }
+form{
+  padding:15px;
+}
+input{
+  border:0;
+  border-bottom:2px solid darkgray;
+  outline:none;
+}
+form > aside{
+  float:right;
+}
 #coverage > h5{
   color:#339999;
   font-weight:bold;
