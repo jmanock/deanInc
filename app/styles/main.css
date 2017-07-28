@@ -101,6 +101,10 @@ input{
 form > aside{
   float:right;
 }
+#button{
+  margin-left:400px;
+  cursor:pointer;
+}
 #coverage > h5{
   color:#339999;
   font-weight:bold;
