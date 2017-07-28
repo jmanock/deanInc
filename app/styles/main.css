@@ -92,9 +92,10 @@ aside > a:hover{
 form{
   padding:15px;
 }
+.fa-asterisk{
+  color:red;
+}
 input{
-  
-
   outline:none;
 }
 form > aside{

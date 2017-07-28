@@ -77,7 +77,7 @@
         The policy was originally sold through a subsidiary of her agency Federation of Insured Dog Owners aka F.I.D.O. and is now sold through Debbie's agency, Dean Insurance Agency, Inc. Dean Insurance was established in 1994 and provides a broad range of insurance products and services to personal and business customers.
       </p>
       <p>
-        Debbie has recentyl been nominated a finalist for Woman of the Year in the Pet Industy Network.
+        Debbie has recently been nominated a finalist for Woman of the Year in the Pet Industy Network.
       </p>
     </section>
 
@@ -99,13 +99,15 @@
 
       <form action="">
         <aside>
-          <label for="phone">Phone: </label>
-          <input type="number" id='phone'> <br>
-          <label for="email">Email: </label>
-          <input type="email" id='email'>
+          <label for="phone"><i class='fa fa-asterisk phone'></i><strong>Phone: </strong> </label>
+          <input type="number" id='phone' class='info'> <br>
+          <label for="email"><i class='fa fa-asterisk email'></i><strong>Email: </strong> </label>
+          <input type="email" id='email' class='info'>
         </aside>
-        Company Name: <input type="text" class='name'> <br>
-        Contact Name: <input type="text" class='contact'> <br>
+        <label for="cName"><i class='fa fa-asterisk cName'></i><strong>Company Name: </strong></label>
+        <input type="text" class='info' id='cName'> <br>
+        <label for="contact"><i class='fa fa-asterisk contact'></i><strong>Contact Name: </strong></label>
+        <input type="text" class='info' id='contact'> <br>
 
         <p>
           <strong>Errors &amp; Omissions/Professional Liability:</strong>
@@ -203,7 +205,6 @@
           </select>
         </p>
         <input type="text" placeholder='Print Name' class='kname'>
-        <input type="text" placeholder='Signature' class='signature'>
         <input type="text" placeholder='Title' class='title'>
         <input type="date" placeholder='Date' class='date'><br>
 
