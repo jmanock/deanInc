@@ -105,9 +105,13 @@ form > aside{
   margin-left:400px;
   cursor:pointer;
 }
+#coverage{
+  margin-top:50px;
+}
 #coverage > h5{
   color:#339999;
   font-weight:bold;
+  text-align:center;
 }
 footer{
   width:100%;
