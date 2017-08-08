@@ -54,6 +54,11 @@ aside > a:hover{
 .nav-item:hover{
   background-color:#40568f !important;
 }
+.splashImg{
+  margin-left:70px;
+  margin-top:5px;
+  width:88%;
+}
 #about{
   margin-top:50px;
   margin-left:75px;
