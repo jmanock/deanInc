@@ -171,3 +171,70 @@ footer:after{
   z-index:1;
   content:'';
 }
+button{
+  cursor:pointer;
+}
+@media only screen and (max-width:1048px){
+  .splashImg{
+    width:85%;
+    margin-left:75px;
+  }
+}
+@media only screen and (max-width:991px){
+  .navbar-brand > img{
+    margin-top:-50px;
+  }
+  .navbar-nav > a{
+    color:teal !important;
+  }
+  .nav-item:hover{
+    color:white !important;
+  }
+  .navbar-nav{
+    margin-top:-50px;
+    background-color:white;
+    position:absolute;
+    right:0;
+    width:200px;
+    text-align:center;
+  }
+
+}
+@media only screen and (max-width:875px){
+  .splashImg{
+    width:83%;
+  }
+  .navbar-brand > img{
+    margin-top:-40px;
+  }
+}
+@media only screen and (max-width:770px){
+  .splashImg{
+    width:80%;
+  }
+  .navbar-brand > img{
+    width:30%;
+    margin-top:-50px;
+  }
+}
+@media only screen and (max-width:655px){
+  .splashImg{
+    width:77%;
+  }
+  .navbar-brand > img{
+    width:30%;
+    margin-top:-30px;
+  }
+}
+@media only screen and (max-width:500px){
+  .splashImg{
+    width:70%;
+  }
+  .navbar-brand > img{
+    width:30%;
+    margin-top:-20px;
+  }
+  footer small{
+    margin-left:0em;
+  }
+}
