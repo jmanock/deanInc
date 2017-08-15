@@ -216,6 +216,14 @@ button{
     width:30%;
     margin-top:-50px;
   }
+  .container > small{
+    margin-left:0;
+  }
+}
+@media only screen and (max-width:675px){
+  #fHeader{
+    font-size:.9em;
+  }
 }
 @media only screen and (max-width:655px){
   .splashImg{
@@ -224,6 +232,25 @@ button{
   .navbar-brand > img{
     width:30%;
     margin-top:-30px;
+  }
+  footer > small{
+    margin-left:0em;
+  }
+}
+@media only screen and (max-width:620px){
+  #fHeader{
+    font-size:.8em;
+  }
+}
+@media only screen and (max-width:550px){
+  #fHeader > aside{
+    float:left;
+  }
+  #fHeader{
+    font-size:1em;
+  }
+  #fHeader > p{
+    display:none;
   }
 }
 @media only screen and (max-width:500px){
