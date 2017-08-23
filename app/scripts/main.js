@@ -1,11 +1,21 @@
 $(document).ready(function(){
   $('.info').on('change', function(){
-    var something = this.id;
-    something = '.'+something;
+    var redStar = this.id;
+    redStar = '.'+redStar;
     if($(this).val().length > 0){
-      $(something).removeClass('fa-asterisk');
+      $(redStar).removeClass('fa-asterisk');
     }else{
-      $(something).addClass('fa-asterisk');
+      $(redStar).addClass('fa-asterisk');
+    }
+  });
+
+  $('#questions').on('change', function(){
+    var qValue = this.value;
+    // This is where the questions will be a hide show
+    if(qValue === 'insurance'){
+      console.log('HelloFriend');
+    }else{
+      console.log(qValue);
     }
   });
 
