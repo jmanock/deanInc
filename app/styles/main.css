@@ -40,6 +40,9 @@ aside > a:hover{
   color:#40568f;
   text-decoration:none;
 }
+.active{
+  text-decoration:underline;
+}
 .navbar{
   margin-top:50px;
   height:100px;
