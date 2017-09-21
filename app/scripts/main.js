@@ -1,7 +1,71 @@
 $(document).ready(function(){
+  $('#Errors').hide();
+  $('#Liability').hide();
+  $('#Bonds').hide();
+  $('#Cyber').hide();
+  $('#Crime').hide();
+  $('#Workers').hide();
+  $('#Owners').hide();
+
   $('#first').on('change', function(){
     var formOption = this.value;
-    // This should show questions based on the var
+    if(formOption === 'Errors'){
+      $('#Errors').show();
+      $('#Liability').hide();
+      $('#Bonds').hide();
+      $('#Cyber').hide();
+      $('#Crime').hide();
+      $('#Workers').hide();
+      $('#Owners').hide();
+    }else if(formOption === 'Liability'){
+      $('#Liability').show();
+      $('#Errors').hide();
+      $('#Bonds').hide();
+      $('#Cyber').hide();
+      $('#Crime').hide();
+      $('#Workers').hide();
+      $('#Owners').hide();
+    }else if(formOption === 'Bonds'){
+      $('#Bonds').show();
+      $('#Errors').hide();
+      $('#Liability').hide();
+      $('#Cyber').hide();
+      $('#Crime').hide();
+      $('#Workers').hide();
+      $('#Owners').hide();
+    }else if(formOption === 'Cyber'){
+      $('#Cyber').show();
+      $('#Errors').hide();
+      $('#Liability').hide();
+      $('#Bonds').hide();
+      $('#Crime').hide();
+      $('#Workers').hide();
+      $('#Owners').hide();
+    }else if(formOption === 'Crime'){
+      $('#Crime').show();
+      $('#Errors').hide();
+      $('#Liability').hide();
+      $('#Bonds').hide();
+      $('#Cyber').hide();
+      $('#Workers').hide();
+      $('#Owners').hide();
+    }else if(formOption === 'Workers'){
+      $('#Workers').show();
+      $('#Errors').hide();
+      $('#Liability').hide();
+      $('#Bonds').hide();
+      $('#Cyber').hide();
+      $('#Crime').hide();
+      $('#Owners').hide();
+    }else{
+      $('#Owners').show();
+      $('#Errors').hide();
+      $('#Liability').hide();
+      $('#Bonds').hide();
+      $('#Cyber').hide();
+      $('#Crime').hide();
+      $('#Workers').hide();
+    }
   });
 
 
@@ -12,32 +76,6 @@ $(document).ready(function(){
       $(redStar).removeClass('fa-asterisk');
     }else{
       $(redStar).addClass('fa-asterisk');
-    }
-  });
-
-  $('#questions').on('change', function(){
-    var qValue = this.value;
-    // This is where the questions will be a hide show
-    if(qValue === 'insurance'){
-      console.log('HelloFriend');
-    }else{
-      console.log(qValue);
-    }
-  });
-
-  $("[name='Affiliated business']").click(function(){
-    if(this.value === 'Yes'){
-      $('.afbYes').show();
-    }else{
-      $('.afbYes').hide();
-    }
-  });
-
-  $('#falseified').click(function(){
-    if($('#falseified').is(':checked')){
-      $('#button').prop('disabled', false);
-    }else{
-      $('#button').prop('disabled', true);
     }
   });
 });
