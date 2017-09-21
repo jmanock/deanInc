@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  $('#first').on('change', function(){
+    var formOption = this.value;
+    // This should show questions based on the var
+  });
+
+
   $('.info').on('change', function(){
     var redStar = this.id;
     redStar = '.'+redStar;
