@@ -6,6 +6,9 @@ $(document).ready(function(){
   $('#Crime').hide();
   $('#Workers').hide();
   $('#Owners').hide();
+  $('textarea').hide();
+  $('.eQuote').hide();
+  $('.eeQuote').hide();
 
   $('#first').on('change', function(){
     var formOption = this.value;
@@ -68,6 +71,28 @@ $(document).ready(function(){
     }
   });
 
+  $('.affiliated').on('change', function(){
+    var tArea = this.value;
+    console.log(tArea);
+    if(tArea === 'yes'){
+      $('textarea').show();
+      $('.eQuote').show();
+    }else{
+      $('textarea').hide();
+      $('.eQuote').show();
+    }
+  });
+
+  $('.af').on('change', function(){
+    var tArea = this.value;
+    if(tArea === 'yes'){
+      $('textarea').show();
+      $('.eeQuote').show();
+    }else{
+      $('textarea').hide();
+      $('.eeQuote').show();
+    }
+  });
 
   $('.info').on('change', function(){
     var redStar = this.id;
