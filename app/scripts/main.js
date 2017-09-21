@@ -77,6 +77,7 @@ $(document).ready(function(){
     }else{
       $(redStar).addClass('fa-asterisk');
     }
+
   });
 });
 
